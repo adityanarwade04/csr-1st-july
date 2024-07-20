@@ -1,0 +1,51 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("C:/Users/adity/OneDrive/Pictures/Camera Roll/images.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.image {
+    margin: 10px;
+}
+
+.image img {
+    width: 300px; 
+    height: auto; 
+    display: block;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(199, 9, 9, 0.827); 
+    transition: transform 0.3s ease; 
+    margin: 10px;
+    border-radius: 12px; 
+    overflow: hidden;
+}
+
+.image img:hover {
+    transform: scale(1.05); 
+}
+button{
+    background-color: aqua;
+    width:200px ;
+    height: 40px;
+    color: black;
+    display: block;
+    border-radius:4px ;
+    box-shadow: 0 4px 8px rgb(167, 65, 86);
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+
+}

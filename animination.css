@@ -1,0 +1,30 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body{
+    background-color: black;
+    background-image: url(th\ \(3\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(237, 211, 40, 0.875);
+    animation: moveX 2s ease-in-out infinite alternate;
+  }
+  
+  @keyframes moveX {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(200px);
+    }
+  }
+  

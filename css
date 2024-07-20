@@ -1,0 +1,46 @@
+.div1{
+    width:200px;
+    background-color: deeppink;
+    float:left;
+    margin:10px;
+    padding: 10px;
+    text-transform: lowercase;
+    text-shadow:1px 1px white;
+    border: 2px solid black;
+}
+.div2{
+    width:200px;
+    background-color: chocolate;
+    float:left;
+    margin: 10px;
+    padding: 10px;
+    text-transform: capitalize;
+    text-shadow:1px 1px yellow;
+    border: 2px dashed greenyellow;
+}
+
+.div3{
+    width:200px;
+    background-color: crimson;
+    float:left;
+    margin:10px;
+    padding: 10px;
+    text-transform:inherit;
+    text-shadow:1px 1px white;
+    border: 2px double deeppink;
+}
+.div4{
+    width:200px;
+    background-color: gold;
+    float:left;
+    margin:10px;
+    padding: 10px;
+    text-transform:initial;
+    text-shadow:1px 1px orangered;
+    border: 2px double darkorange;
+}
+h1:hover{
+    text-transform:capitalize;
+    text-shadow:2px 2px yellow;
+    color: red;
+}

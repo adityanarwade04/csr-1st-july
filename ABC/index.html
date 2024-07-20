@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sample Form</title>
+  <style>
+    /* General styling for the body */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #128bc3; /* Fallback for older browsers */
+      background-color: rgba(17, 150, 203, 0.8); /* Transparent background with some opacity */
+      padding: 20px;
+    }
+
+    /* Styling for the form */
+    form {
+      background-color: rgba(179, 17, 17, 0.9); /* Semi-transparent white background for the form */
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    /* Styling for form elements */
+    label {
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+      background-color: #0f42c3;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #8e19e8;
+    }
+  </style>
+</head>
+<body>
+
+  <form action="/submit-your-form-handler" method="POST">
+    <label for="fullname">Full Name:</label>
+    <input type="text" id="fullname" name="fullname" required>
+
+    <label for="email">password:</label>
+    <input type="email" id="email" name="email" required>
+    <br>
+
+    <label for="password">email:</label>
+    <input type="password" id="password" name="password" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+
+</body>
+</html>
