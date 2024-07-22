@@ -12,10 +12,10 @@ body, html {
     background-size: cover ;
   }
   
-  .box {
-    width: 100px;
-    height: 100px;
-    background-color: rgba(237, 211, 40, 0.875);
+  .animation .image img {
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
     animation: moveX 2s ease-in-out infinite alternate;
   }
   
